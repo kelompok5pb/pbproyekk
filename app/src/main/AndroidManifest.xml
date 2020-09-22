@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".ActivityNova"></activity>
+=======
         <activity
             android:name=".tio2"
             android:label="@string/title_activity_tio2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".aktivitas_tio" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
